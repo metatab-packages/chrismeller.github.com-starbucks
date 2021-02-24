@@ -1,0 +1,80 @@
+Declare,metatab-latest
+Title,Starbucks Locations
+Description,"A list of Starbucks locations, scraped from the web in 2017"
+Identifier,0550a135-305f-40ff-b689-d3ab44f5ce06
+Name,chrismeller.github.com-starbucks-1.1.2
+Dataset,starbucks
+Origin,chrismeller.github.com
+Time,
+Space,
+Grain,
+Variant,
+Version,1.1.2
+Version.Major,1
+Version.Minor,1
+Version.Patch,2
+Created,2021-02-23T15:57:42
+Modified,2021-02-24T05:38:03
+Giturl,https://github.com/CivicKnowledge/radius-search.git
+""
+Section,Contacts,Email,Organization,Url
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
+""
+Section,Documentation,Title,Description,
+Documentation,file:README.md,README,,
+Homepage,https://github.com/chrismeller/StarbucksLocations,Source,Github page for the datafile source,
+""
+Section,References,Name,Description,
+Reference,censusgeo://2019/5/US/state,states,US States,
+""
+Section,Resources,Name,Description,
+Datafile,https://github.com/chrismeller/StarbucksLocations/raw/master/stores.csv,all_starbucks,List of Starbucks locations.,
+Datafile,notebooks/convert.ipynb#ussb,us_starbucks,Geo file of starbucks in the US,
+""
+Section,Schema,DataType,AltName,Description,Has_Codes
+Table,all_starbucks,,,,
+Table.Column,Id,string,id,,
+Table.Column,StarbucksId,integer,starbucksid,,
+Table.Column,Name,text,name,,
+Table.Column,BrandName,string,brandname,,
+Table.Column,StoreNumber,string,storenumber,,
+Table.Column,PhoneNumber,string,phonenumber,,
+Table.Column,OwnershipType,string,ownershiptype,,
+Table.Column,Street1,text,street1,,
+Table.Column,Street2,text,street2,,
+Table.Column,Street3,text,street3,,
+Table.Column,City,text,city,,
+Table.Column,CountrySubdivisionCode,string,countrysubdivisioncode,,
+Table.Column,CountryCode,string,countrycode,,
+Table.Column,PostalCode,string,postalcode,,
+Table.Column,Longitude,number,longitude,,
+Table.Column,Latitude,number,latitude,,
+Table.Column,TimezoneOffset,integer,timezoneoffset,,
+Table.Column,TimezoneId,string,timezoneid,,
+Table.Column,TimezoneOlsonId,string,timezoneolsonid,,
+Table.Column,FirstSeen,datetime,firstseen,,
+Table.Column,LastSeen,datetime,lastseen,,
+Table,us_starbucks,,,,
+Table.Column,Id,string,id,,
+Table.Column,StarbucksId,integer,starbucksid,,
+Table.Column,Name,text,name,,
+Table.Column,BrandName,string,brandname,,
+Table.Column,StoreNumber,string,storenumber,,
+Table.Column,PhoneNumber,string,phonenumber,,
+Table.Column,OwnershipType,string,ownershiptype,,
+Table.Column,Street1,string,street1,,
+Table.Column,Street2,string,street2,,
+Table.Column,Street3,string,street3,,
+Table.Column,City,string,city,,
+Table.Column,CountrySubdivisionCode,string,countrysubdivisioncode,,
+Table.Column,CountryCode,string,countrycode,,
+Table.Column,PostalCode,integer,postalcode,,T
+Table.Column,Longitude,number,longitude,,
+Table.Column,Latitude,number,latitude,,
+Table.Column,TimezoneOffset,integer,timezoneoffset,,
+Table.Column,TimezoneId,string,timezoneid,,
+Table.Column,TimezoneOlsonId,string,timezoneolsonid,,
+Table.Column,FirstSeen,datetime,firstseen,,
+Table.Column,LastSeen,datetime,lastseen,,
+Table.Column,geoid,string,,,
+Table.Column,geometry,string,,,
