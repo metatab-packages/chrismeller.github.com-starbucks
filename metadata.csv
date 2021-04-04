@@ -2,19 +2,19 @@ Declare,metatab-latest
 Title,Starbucks Locations
 Description,"A list of Starbucks locations, scraped from the web in 2017"
 Identifier,0550a135-305f-40ff-b689-d3ab44f5ce06
-Name,chrismeller.github.com-starbucks-2.1.1
+Name,chrismeller.github.com-starbucks-2.1.2
 Dataset,starbucks
 Origin,chrismeller.github.com
 Time,
 Space,
 Grain,
 Variant,
-Version,2.1.1
+Version,2.1.2
 Version.Major,2
 Version.Minor,1
-Version.Patch,1
+Version.Patch,2
 Created,2021-02-23T15:57:42
-Modified,2021-02-25T23:46:14
+Modified,2021-04-02T14:52:17
 Giturl,https://github.com/metatab-packages/chrismeller.github.com-starbucks.git
 ""
 Section,Contacts,Email,Organization,Url
